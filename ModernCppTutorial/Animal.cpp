@@ -2,9 +2,9 @@
 #include "stdheaders.h"
 #include "customHeaders.h"
 
-// fonksiyon tanıtıcısı. 
+// Fonksiyon tanÄ±tÄ±cÄ±sÄ±. 
 
-// static üye class dışında tanımlanır.
+// Static Ã¼ye class dÄ±ÅŸÄ±nda tanÄ±mlanÄ±r.
 
 int Animal::numOfAnimals = 0;
 

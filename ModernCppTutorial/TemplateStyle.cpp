@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "TemplateStyle.h"
 /*
-Template ile fonksiyon gövdelerini farklı veri tipleri için kullanabiliriz.
+Template ile fonksiyon gÃ¶vdelerini farklÄ± veri tipleri iÃ§in kullanabiliriz.
 */
 
 
@@ -18,7 +18,7 @@ T Max(T var1, T var2) {
 // --- generate fibonacci ---
 template <typename T>
 std::vector<T> fibUret(T max) {
-	// Belki de gelmiş geçmiş en kötü çözüm ama yazması hızlı ve anlaşılır :)
+	// Belki de gelmiÅŸ geÃ§miÅŸ en kÃ¶tÃ¼ Ã§Ã¶zÃ¼m ama yazmasÄ± hÄ±zlÄ± ve anlaÅŸÄ±lÄ±r :)
 	std::function<T(T)> fibonacci;
 	fibonacci = [&fibonacci](T n) {
 		return n < 2 ? n : fibonacci(n - 1) + fibonacci(n - 2);
